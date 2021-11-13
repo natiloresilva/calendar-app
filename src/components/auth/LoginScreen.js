@@ -37,7 +37,6 @@ export const LoginScreen = () => {
         if (rPassword1 !== rPassword2) {
             return Swal.fire('Error', 'Passwords must match', 'error')
         }
-        console.log('?')
         dispatch(startRegister(rEmail, rPassword1, rName))
     }
 

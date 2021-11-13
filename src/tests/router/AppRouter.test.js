@@ -86,7 +86,7 @@ describe('Pruebas en <AppRouter />', () => {
             </Provider>
         )
 
-        expect(wrapper).toMatchSnapshot();
+        expect(wrapper).toMatchSnapshot()
         expect(wrapper.find('.calendar-screen').exists()).toBe(true)
 
     })
